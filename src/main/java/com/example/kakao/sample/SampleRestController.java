@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api") 
 public class SampleRestController {
 
-    private final SampleDataRepository sampleDataRepository;
+    // private final SampleDataRepository sampleDataRepository;
 
     @GetMapping("/test")
     public ResponseEntity<?> pingTest() {
