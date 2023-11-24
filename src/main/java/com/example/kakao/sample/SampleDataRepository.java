@@ -1,6 +1,6 @@
-package com.example.kakao.sample;
+// package com.example.kakao.sample;
 
-import java.util.Optional;
+// import java.util.Optional;
 
-public interface SampleDataRepository {
-}
+// public interface SampleDataRepository {
+// }
