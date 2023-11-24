@@ -12,16 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api") 
 public class SampleRestController {
 
-    // private final SampleDataRepository sampleDataRepository;
-
     @GetMapping("/test")
     public ResponseEntity<?> pingTest() {
         return ResponseEntity.ok(true);
     }
-
-    // @GetMapping("/db")
-    // public ResponseEntity<?> dbTest() {
-    //     List<SampleData> sampleDataList = sampleDataRepository.findAll();
-    //     return ResponseEntity.ok(sampleDataList);
-    // }
 }
