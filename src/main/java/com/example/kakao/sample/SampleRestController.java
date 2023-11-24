@@ -19,9 +19,9 @@ public class SampleRestController {
         return ResponseEntity.ok(true);
     }
 
-    @GetMapping("/db")
-    public ResponseEntity<?> dbTest() {
-        List<SampleData> sampleDataList = sampleDataRepository.findAll();
-        return ResponseEntity.ok(sampleDataList);
-    }
+    // @GetMapping("/db")
+    // public ResponseEntity<?> dbTest() {
+    //     List<SampleData> sampleDataList = sampleDataRepository.findAll();
+    //     return ResponseEntity.ok(sampleDataList);
+    // }
 }
